@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <title>Forma2</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h3>Registracija:</h3>
+
+    <form method="GET" action="podaci.html">
+
+    <label for="username">Ime*</label>
+    <input type="text" name="userename" id="username" required> <br><br>
+
+    <label for="surname">Prezime *</label>
+    <input type="text" name="surname" id="surname" required> <br><br>
+
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email" required> <br><br>
+
+    <label for="phone">Kontakt telefon</label>
+    <input type="tel" name="phone" id="phone" placeholder="+381 123 234-231"> <br><br>
+
+    <label for="adress">Adresa stanovanja</label>
+    <input type="text" name="adress" id="adress"> <br><br>
+
+    <label for="city">Grad</label>
+    <select name="city" id="city" multiple size="5">
+        <option value="1">Beograd</option>
+        <option value="2">Novi Sad</option>
+        <option value="3">Nis</option>
+        <option value="4">Kragujevac</option>
+        <option value="5">Subotica</option>
+    </select><br><br>
+
+    <label>Vestine:</label><br>
+
+    <input type="checkbox" id="html" name="html" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="css" value="css">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="javascript" name="javascript" value="JavaScript">
+    <label for="javascript">JavaScript</label><br>
+    <input type="checkbox" id="php" name="php" value="PHP">
+    <label for="php">PHP</label><br>
+    <input type="checkbox" id="java" name="java" value="JAVA">
+    <label for="java">JAVA</label><br><br>
+
+    <p>Da li ste trenutno zaposleni?</p>
+    <input type="radio" name="work" id="work1" value="1">
+    <label for="work1">Da</label>
+    <input type="radio" name="work" id="work2" value="2">
+    <label for="work2">Ne</label><br><br>
+
+    <label for="note">Napomena</label><br>
+    <textarea name="note" id="note" cols="30" rows="10"></textarea><br><br>
+
+    <input type="submit" value="Posalji">
+    <input type="reset" value="Restartuj">
+
+
+    </form>
+
+    
+</body>
+
+</html>
